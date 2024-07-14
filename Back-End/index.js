@@ -31,7 +31,11 @@ const secretKey = generateRandomString(32); // Generate a 32-character random st
 
 // Create an Express app
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+     // Replace with your frontend's URL
+  })
+);
 
 
 //google login

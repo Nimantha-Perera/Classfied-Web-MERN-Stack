@@ -32,12 +32,7 @@ const secretKey = generateRandomString(32); // Generate a 32-character random st
 // Create an Express app
 const app = express();
 app.use(cors());
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-    credentials: true, // Enable credentials (cookies, authorization headers)
-  })
-);
+
 
 //google login
 // Configure Passport

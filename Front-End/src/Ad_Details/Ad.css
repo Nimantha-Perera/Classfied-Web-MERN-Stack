@@ -1,0 +1,32 @@
+/* CSS for description animation
+.description-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .description-container.open {
+    max-height: 300px; /* Adjust the height as needed */
+    /* transition: max-height 0.3s ease-in-out;
+  }
+   */ 
+
+   @media (max-width: 990px) {
+   
+   .what-num,.mob-num{
+     text-align: center;
+     margin: 10px;
+   }
+   .numb-card{
+    text-align: center;
+   }
+   #share-btnx{
+    margin-top: 40px;
+   }
+   #owner-det{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+   }
+    
+  }

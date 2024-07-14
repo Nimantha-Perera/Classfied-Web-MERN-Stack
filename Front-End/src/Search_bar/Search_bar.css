@@ -1,0 +1,30 @@
+
+.searc{
+    background-color: #0d6efd;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    
+   
+}
+#srch_btn{
+    background-color: #fbd408;
+    border: none;
+    border-radius: 50px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+ 
+}
+#srch_btn:hover{
+    background-color: #695800;
+}
+#input_serch{
+    border: none;
+    border-radius: 50px
+}
+#all_adsb{
+  
+}
+
+/* suggetion */

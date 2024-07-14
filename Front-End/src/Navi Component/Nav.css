@@ -1,0 +1,97 @@
+.creat_acc{
+    margin-right: 10px;
+}
+
+/* Buttons CSS */
+
+#post_btn{
+    background-color: #fbd408;
+    border: none;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75); */
+}
+
+
+/* Active Btn Account Detail */
+
+/* Define the active styles */
+.active-btn {
+    background-color: #011f41; /* Change the background color */
+    color: #fff; /* Change the text color */
+    border-radius: 20px;
+    border: 1px solid #001a35; /* Change the border color */
+    /* Add any other styles you want for the active state */
+  }
+  
+
+#post_btn:hover{
+    background-color: #caa902;
+}
+#post_btn:active{
+    background-color: #aa8e01;
+    /* box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75); */
+}
+#create_acc_btn{
+    background-color: #00DFA2;
+    border: none;
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75); */
+}
+#create_acc_btn:hover{
+    background-color: #009970;
+}
+#create_acc_btn:active{
+    background-color: #007e5c;
+    
+    /* box-shadow: 0px 0px 28px -7px rgba(0,0,0,0.75); */
+}
+#language-dropdown{
+    font-size: 10px;
+}
+#all_ads_btns.active{
+    cursor: auto;
+}
+
+
+
+
+/* Nav.css */
+
+/* 500px Max Width Responsive view */
+@media (max-width: 990px) {
+   
+   
+    #language-dropdown{
+        display: none;
+    }
+    
+  
+    .navbar .ml-auto {
+      
+    }
+    #lg_btn12{
+        font-size: 10px;
+        display: none;
+    }
+  
+    #post_btn {
+       display: none;
+    }
+    #create_acc_btn{
+        margin-top: 10px;
+        font-size: 10px;
+        margin-top: 0px;
+        margin-right: 0px;
+    
+    }
+    #language-dropdown{
+      
+    }
+  }
+  @media (max-width: 437px) {
+    #all_ads_btns{
+        display: none;
+    }
+  }
+ 
+  

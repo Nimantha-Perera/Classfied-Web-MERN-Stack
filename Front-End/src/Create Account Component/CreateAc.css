@@ -1,0 +1,26 @@
+/* Styling for the Modal */
+.create-ac-modal {
+    
+  }
+  
+  /* Styling for the Form */
+  .create-ac-form {
+    
+  }
+  
+  /* Styling for the Buttons */
+  .create-ac-button {
+    margin: 16px;
+    border-radius: 30px;
+  }
+.lable_cre{
+    font-size: 13px;
+    margin-left: 2px;
+    padding: 10px;
+}
+.form-control:focus {
+  border-color: initial; /* Set the border color to the initial value */
+  box-shadow: none; /* Remove the box shadow */
+}
+
+  

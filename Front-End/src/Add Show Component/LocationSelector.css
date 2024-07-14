@@ -1,0 +1,10 @@
+/* Add this CSS to your stylesheet */
+option.sub-option {
+    display: none;
+  }
+  
+  option.sub-option[data-parent='kandy']:hover,
+  option[data-parent='kandy']:hover + .sub-option {
+    display: block;
+  }
+  

@@ -1,0 +1,38 @@
+.preview{
+    border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 50px;
+  background-color: rgb(148, 148, 148);
+  border-bottom-right-radius: 50px;
+}
+.next{
+    border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 50px;
+  background-color: rgb(148, 148, 148);
+  border-bottom-left-radius: 50px;
+}
+.dis_img{
+    background-color: rgb(0, 153, 255);
+    
+}
+.price_img_s{
+    color: #fbd408;
+}
+@media (max-width: 990px) {
+
+  
+   .dis_img{
+    
+    font-size: 10px;
+  
+    
+   }
+   .img_con{
+    margin-top: 20px;
+   }
+   .price_img_s{
+    font-size: 15px;
+    margin-top: -10px;
+   }
+}

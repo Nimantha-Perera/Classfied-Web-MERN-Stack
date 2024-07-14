@@ -1,0 +1,16 @@
+.ads_cont{
+    margin-top: 100px;
+    
+}
+.posted_add{
+    background-color: #fbd408;
+    margin-bottom: 100px;
+}
+@media (max-width: 990px) {
+    .selected_imgs{
+        width: 50px;
+    }
+    .ads_cont{
+        font-size: 12px;
+    }
+  }

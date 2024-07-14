@@ -1,0 +1,15 @@
+.ads_bar{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+/* Add this to All.ads.css */
+.right-side-banner {
+  position: sticky;
+  top: 0;
+}
+.left-side-filter{
+  position: sticky;
+  top: 0;
+}

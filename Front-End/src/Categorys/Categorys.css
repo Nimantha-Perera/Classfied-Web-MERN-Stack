@@ -1,0 +1,61 @@
+.crd_tit {
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+}
+
+.crd_img {
+    text-align: center;
+    width: 60px;
+}
+
+.categorys_con {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../SVG/495.jpg");
+    background-size: cover; /* This will make the background image cover the entire pseudo-element */
+    background-repeat: no-repeat;
+    opacity: 0.05; /* Change this value to the desired opacity (between 0 and 1) */
+    z-index: -1; /* Place the pseudo-element below the content */
+}
+
+
+.card_view {
+    cursor: pointer;
+    text-align: center;
+    box-shadow: -1px 0px 6px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    align-items: center;
+    padding: 20px;
+    transition: .2s;
+}
+
+/* Card View Hover Effect */
+.card_view:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
+}
+.card_view:active{
+    background-color: rgb(43, 43, 43);
+}
+.find_add_header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+    .card_view:hover {
+        background-color: rgb(255, 255, 255); /* Reset background color to the original state */
+
+        cursor: auto; /* Remove the cursor pointer */
+        transition: none; /* Remove transitions */
+    }
+}

@@ -1,0 +1,57 @@
+.crd_tits{
+    color: #000000;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.time{
+    margin-top: -10px;
+}
+.card_alls {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    position: relative;
+    transition: .4s;
+  }
+  .price_vv{
+    color: #caa902;
+  }
+ .card_alls:hover{
+  background-color: #e4e4e4;
+ }
+  
+  .card .time {
+    position: absolute;
+    top: 130px;
+    right: 0;
+    margin-right: 20px;
+    color: rgb(194, 194, 194);
+    font-size: 11px;
+  }
+  
+  .img_sli {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  
+  .card .card-text {
+    margin-bottom: 5px;
+  }
+/* 500px Max Width Responsive view */
+@media (max-width: 990px) {
+  .crd_tits{
+    font-size: 14px;
+
+}
+.time{
+  font-size: 10px;
+}
+.price_vv{
+  font-size: 12px;
+}
+#des_loc{
+  font-size: 10px;
+}
+ 
+}

@@ -1,0 +1,38 @@
+/* Add this CSS in your App.css file or create a new CSS file */
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Raleway&family=Roboto+Slab:wght@200;400&display=swap'); */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-add-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: #fbd408;
+    font-size: 12px;
+    border: none;
+    border-radius: 50px;
+    
+  }
+  .post-add-button:active{
+    background-color: #d1af02;
+    border: none;
+  }
+  
+  /* Show the button only on screens with a maximum width of 500px */
+  @media (max-width: 992px) {
+    .post-add-button {
+      display: block;
+    }
+  }
+  
+  /* Hide the button on screens with a width greater than 500px */
+  @media (min-width: 993px) {
+    .post-add-button {
+      display: none;
+    }
+  }
+  

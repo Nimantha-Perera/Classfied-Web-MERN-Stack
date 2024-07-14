@@ -1,0 +1,15 @@
+/* ProfileView.css */
+
+.list-group-item.active {
+  
+    border: none;
+  }
+  @media (max-width: 990px) {
+   .content_profile{
+    margin-top: 20px;
+   }
+  }
+
+
+
+  

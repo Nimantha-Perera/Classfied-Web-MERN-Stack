@@ -1,0 +1,32 @@
+/* Add this to your CSS */
+.left-side-filter{
+    /* background-color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 6px 2px rgb(190, 190, 190); */
+}
+@media (max-width: 990px) {
+
+
+ 
+    .filter-section {
+        max-height: 1000px; /* Adjust this value based on your content */
+        overflow: hidden;
+        padding: 10px;
+        transition: max-height 0.5s ease-in-out; /* Adjust the duration as needed */
+       
+      }
+      /* Add this to your CSS */
+    .filter-section {
+        max-height: 0;
+        opacity: 0;
+        transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+    
+    .filter-section-hidden {
+     
+      max-height: 1000px; /* Adjust this value based on your content */
+      overflow: hidden;
+      opacity: 1;
+      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+  }
+  
